@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-17T13:21:55.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="KWMro7HrB_yIGktGOvJC" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-17T13:47:05.063Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Pycty5ebjP2iRdS7qI2g" version="13.6.9" type="github">
   <diagram id="ovtI3kvPQnSv_diHjYjg" name="Page-1">
     <mxGraphModel dx="1032" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -70,22 +70,16 @@
         <mxCell id="WoGMMZkuU9i0fPheh7HE-23" value="Disp: Bal yr 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WoGMMZkuU9i0fPheh7HE-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WoGMMZkuU9i0fPheh7HE-27" target="WoGMMZkuU9i0fPheh7HE-29">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="WoGMMZkuU9i0fPheh7HE-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WoGMMZkuU9i0fPheh7HE-27" target="WoGMMZkuU9i0fPheh7HE-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WoGMMZkuU9i0fPheh7HE-27" value="Do Math" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WoGMMZkuU9i0fPheh7HE-29" value="Bal=(Bal + :yc) x (1 +RoI/100)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="1220" width="520" height="60" as="geometry" />
+        <mxCell id="WoGMMZkuU9i0fPheh7HE-27" value="&amp;nbsp;Bal=(Bal + :yc) x (1 +RoI/100)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WoGMMZkuU9i0fPheh7HE-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WoGMMZkuU9i0fPheh7HE-32" target="WoGMMZkuU9i0fPheh7HE-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WoGMMZkuU9i0fPheh7HE-32" value="Display Bal" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WoGMMZkuU9i0fPheh7HE-32" value="Display Bal&lt;br&gt;add 1 year to counter" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="1360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WoGMMZkuU9i0fPheh7HE-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WoGMMZkuU9i0fPheh7HE-34">
@@ -100,7 +94,7 @@
         <mxCell id="WoGMMZkuU9i0fPheh7HE-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WoGMMZkuU9i0fPheh7HE-34" target="WoGMMZkuU9i0fPheh7HE-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WoGMMZkuU9i0fPheh7HE-34" value="Did we do math for amount" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WoGMMZkuU9i0fPheh7HE-34" value="&amp;nbsp;counter = Years" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="1490" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WoGMMZkuU9i0fPheh7HE-37" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
